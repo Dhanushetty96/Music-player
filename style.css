@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     border: 1px solid transparent;
     padding: 30px;
-    height:650px;
+    height:700px;
     align-items: center;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -29,7 +29,7 @@ body{
 .track-art{
     margin: 25px;
     height: 250px;
-    width: 250px;
+    width: 220px;
     border: 2px solid #fff;
     background-position: center;
     border-radius: 50%;
@@ -163,7 +163,7 @@ i.fa-step-forward{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    position: fixed;
+    
     bottom: 0;
   }
   
@@ -233,4 +233,23 @@ i.fa-step-forward{
       height: 10px;
     }
   }
+  @media screen and (max-width: 480px) {
+    .music-container {
+        max-width: 95%;
+    }
+
+    .track-art {
+        width: 80px;
+        height: 80px;
+    }
+
+    .controls button {
+        font-size: 20px;
+    }
+
+    .track-info {
+        font-size: 14px;
+    }
+}
+
   
